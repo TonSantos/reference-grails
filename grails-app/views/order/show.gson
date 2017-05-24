@@ -1,0 +1,7 @@
+import reference.api.Order
+
+model {
+	Order order
+}
+
+json tmpl.order(order)

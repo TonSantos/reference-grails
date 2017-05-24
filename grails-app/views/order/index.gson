@@ -1,0 +1,8 @@
+import reference.api.Order
+
+model {
+	Iterable<Order> orderList
+}
+
+json tmpl.order(orderList ?: [])
+
